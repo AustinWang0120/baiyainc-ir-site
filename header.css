@@ -1,0 +1,100 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 30rem;
+}
+
+/* brand */
+.brand {
+	display: flex;
+	align-items: center;
+}
+
+.brand__logo {
+	margin-right: 1rem;
+}
+
+.brand__title {
+	font-size: 2rem;
+	color: gray;
+}
+
+.brand__divider {
+	height: 4rem;
+	width: 0.2rem;
+	background-color: gray;
+	margin-right: 1rem;
+}
+
+/* navigation */
+.nav__list {
+	list-style-type: none;
+	padding: 0;
+}
+
+.nav__item {
+	display: inline;
+	position: relative;
+	margin: 0 2.5rem;
+	padding-bottom: 3.5rem;
+}
+
+.nav__link {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	transition: color 0.3s ease;
+	cursor: default;
+}
+
+.nav__link:hover {
+	color: red;
+}
+
+.nav__sublist {
+	visibility: hidden;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 15rem;
+	box-shadow: 0 0.8rem 1.6rem 0 rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	top: 100%;
+	left: 50%;
+	opacity: 0;
+	transform: translate(-50%, -5%);
+	transition: opacity 0.3s ease, transform 0.3s ease;
+	padding: 1rem;
+}
+
+.nav__item:hover .nav__sublist {
+	visibility: visible;
+	opacity: 1;
+	transform: translate(-50%, 0);
+}
+
+.nav__subitem {
+	display: block;
+}
+
+.nav__subitem:first-child {
+	margin-top: 1rem;
+}
+
+.nav__subitem:not(:first-child) {
+	margin-top: 2rem;
+}
+
+.nav__sublink {
+	text-decoration: none;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: black;
+	transition: color 0.3s ease;
+	cursor: default;
+}
+
+.nav__sublink:hover {
+	color: red;
+}

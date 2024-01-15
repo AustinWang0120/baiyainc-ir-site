@@ -1,0 +1,72 @@
+/* section 1 */
+.show {
+	background-image: url("assets/about-us-1/组\ 8.png");
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15rem 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show__title {
+	color: white;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
+.show__divider {
+	height: 0.5rem;
+	width: 10rem;
+	background-color: red;
+}
+
+.page__title {
+	padding: 5rem 30rem;
+}
+
+.page__title--upper {
+	font-size: 3rem;
+	color: red;
+	margin-bottom: 1.5rem;
+}
+
+/* section 2 */
+.service {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 10rem 30rem;
+}
+
+.service--1 {
+	padding: 0 30rem 10rem;
+}
+
+.service__text {
+	margin-right: 1rem;
+}
+
+.service__title {
+	font-size: 4rem;
+	margin-bottom: 3rem;
+}
+
+.service__icon {
+	float: left;
+	width: 4.5rem;
+	margin-right: 1.5rem;
+}
+
+.service__description {
+	font-size: 1.5rem;
+	line-height: 3;
+}
+
+/* section 4 */
+.service--3 {
+	align-items: center;
+}

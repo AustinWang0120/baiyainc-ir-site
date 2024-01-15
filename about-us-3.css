@@ -1,0 +1,82 @@
+/* section 1 */
+.show {
+	background-image: url("assets/about-us-2/u=4133983431\,474998164&fm=253&app=138&f=JPEG\ 拷贝\ 3.png");
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15rem 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show__title {
+	color: white;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
+.show__divider {
+	height: 0.5rem;
+	width: 10rem;
+	background-color: red;
+}
+
+.page__title {
+	padding: 5rem 30rem;
+}
+
+.page__title--upper {
+	font-size: 3rem;
+	color: red;
+	margin-bottom: 1.5rem;
+}
+
+/* section 2 */
+.people {
+	padding: 0 30rem;
+}
+
+.people__image {
+	margin-right: 3rem;
+	transition: all 0.3s ease-in-out;
+}
+
+.people__image:hover {
+	transform: scale(1.1);
+}
+
+.people__block {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-bottom: 10rem;
+}
+
+.people__name {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.people__title {
+	font-size: 2rem;
+	color: gray;
+	margin-bottom: 2rem;
+}
+
+.people__description {
+	font-size: 1.5rem;
+	line-height: 2;
+}
+
+/* section 3 */
+.board {
+	text-align: center;
+	margin-bottom: 10rem;
+}
+
+.board__image {
+	width: 100rem;
+}

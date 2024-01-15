@@ -1,0 +1,112 @@
+/* section 1 */
+.show {
+	background-image: url("assets/investor-relations-1/组\ 5.png");
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15rem 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show__title {
+	color: white;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
+.show__divider {
+	height: 0.5rem;
+	width: 10rem;
+	background-color: red;
+}
+
+.page__title {
+	padding: 5rem 30rem;
+}
+
+.page__title--upper {
+	font-size: 3rem;
+	color: red;
+	margin-bottom: 1.5rem;
+}
+
+/* section 2 */
+.downloads__block {
+	display: flex;
+	padding: 0 30rem 10rem;
+}
+
+.downloads__image {
+	background-size: cover;
+	background-position: center;
+	height: 12rem;
+	width: 36rem;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem 5rem;
+	margin-right: 1rem;
+}
+
+.downloads__image--1 {
+	background-image: url("assets/investor-relations-2/_DSF3879 拷贝.png");
+}
+
+.downloads__image--2 {
+	background-image: url("assets/investor-relations-2/AOB07724\ 拷贝.png");
+}
+
+.downloads__image--3 {
+	background-image: url("assets/investor-relations-2/DSC01916\ 拷贝.png");
+}
+
+.downloads__image--4 {
+	background-image: url("assets/investor-relations-2/20348574\ 拷贝.png");
+}
+
+.downloads__text {
+	width: 100%;
+	padding: 2rem 10rem;
+}
+
+.downloads__title {
+	font-size: 2rem;
+	color: gray;
+}
+
+.downloads__divider {
+	height: 0.1rem;
+	width: 100%;
+	background-color: gray;
+	margin-bottom: 2rem;
+	margin: 2rem 0;
+}
+
+.downloads__download {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.downloads__filename,
+.downloads__button {
+	font-size: 1.5rem;
+}
+
+.downloads__button {
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.downloads__button:hover {
+	color: red;
+}

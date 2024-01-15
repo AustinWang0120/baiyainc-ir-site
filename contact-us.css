@@ -1,0 +1,77 @@
+/* section 1 */
+.show {
+	background-image: url("assets/contact-us/wallpaper5_h800.png");
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15rem 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show__title {
+	color: white;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
+.show__divider {
+	height: 0.5rem;
+	width: 10rem;
+	background-color: red;
+}
+
+.page__title {
+	padding: 5rem 30rem;
+}
+
+.page__title--upper {
+	font-size: 3rem;
+	color: red;
+	margin-bottom: 1.5rem;
+}
+
+/* section 2 */
+.info {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 2rem;
+	padding: 0 30rem 10rem;
+}
+
+.info__block {
+	padding: 3rem;
+	background-color: lightgray;
+}
+
+.info__block--1 {
+	grid-row: span 2;
+}
+
+.info__icon {
+	float: left;
+	margin-right: 1rem;
+	width: 1.5rem;
+}
+
+.info__title--1 {
+	margin-bottom: 5rem;
+}
+
+.info__text {
+	font-size: 1.5rem;
+	line-height: 1.5;
+}
+
+.info__block--4 {
+	padding: 0;
+	background-color: transparent;
+	grid-column: span 2;
+}
+
+.info__image {
+	width: 106rem;
+}

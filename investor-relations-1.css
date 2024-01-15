@@ -1,0 +1,107 @@
+/* section 1 */
+.show {
+	background-image: url("assets/investor-relations-1/组\ 5.png");
+	height: 25rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 15rem 30rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.show__title {
+	color: white;
+	font-size: 5rem;
+	line-height: 10rem;
+}
+
+.show__divider {
+	height: 0.5rem;
+	width: 10rem;
+	background-color: red;
+}
+
+.page__title {
+	padding: 5rem 30rem;
+}
+
+.page__title--upper {
+	font-size: 3rem;
+	color: red;
+	margin-bottom: 1.5rem;
+}
+
+/* section 2 */
+.overview {
+	padding: 0 30rem 10rem;
+}
+
+.overview__image {
+	margin-bottom: 2rem;
+	text-align: center;
+}
+
+.overview__image img {
+	width: 100rem;
+}
+
+.overview__text {
+	font-size: 1.5rem;
+	line-height: 2;
+}
+
+/* section 3 */
+.financials {
+	display: flex;
+	padding: 0 30rem 10rem;
+}
+
+.financials__image {
+	margin-right: 1rem;
+}
+
+.financials__image img {
+	width: 45rem;
+}
+
+.financials__text {
+	width: 100%;
+	padding: 2rem 10rem;
+}
+
+.financials__title {
+	font-size: 2rem;
+	color: gray;
+}
+
+.financials__divider {
+	height: 0.1rem;
+	width: 100%;
+	background-color: gray;
+	margin-bottom: 2rem;
+	margin: 2rem 0;
+}
+
+.financials__download {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.financials__filename,
+.financials__button {
+	font-size: 1.5rem;
+}
+
+.financials__button {
+	color: black;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.financials__button:hover {
+	color: red;
+}
