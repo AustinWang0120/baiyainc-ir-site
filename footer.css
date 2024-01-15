@@ -16,6 +16,10 @@ footer {
 	align-items: center;
 }
 
+.footer__logo {
+	width: 10rem;
+}
+
 .footer__title {
 	padding: 0 1rem 1rem 1rem;
 }
@@ -49,6 +53,7 @@ footer {
 }
 
 .footer__icon {
+	width: 2rem;
 	margin-right: 3rem;
 }
 

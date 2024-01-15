@@ -48,6 +48,10 @@
 	transform: scale(1.1);
 }
 
+.people__image img {
+	width: 20rem;
+}
+
 .people__block {
 	display: flex;
 	justify-content: space-between;
