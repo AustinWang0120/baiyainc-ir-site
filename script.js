@@ -11,3 +11,5 @@ function loadHTML() {
 			document.getElementById("footer").innerHTML = data;
 		});
 }
+
+// for vercel repo updating
