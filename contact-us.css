@@ -45,6 +45,13 @@
 .info__block {
 	padding: 3rem;
 	background-color: lightgray;
+	transition: all 0.3s ease-in-out;
+}
+
+.info__block:hover {
+	background-color: gray;
+	color: white;
+	transform: scale(1.02);
 }
 
 .info__block--1 {
