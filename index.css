@@ -157,7 +157,7 @@
 
 .models hr {
 	border: none;
-	border-top: 3px solid white;
+	border-top: 0.2rem solid white;
 	width: 25%;
 	margin-top: 2rem;
 }
